@@ -1,0 +1,3 @@
+[submodule "vendor/genericons"]
+	path = vendor/genericons
+	url = git@github.com:Automattic/Genericons.git
