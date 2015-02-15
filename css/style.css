@@ -6,7 +6,7 @@ body {
 	font-size:1.6rem;
 	font-family:'Balthazar';
 	line-height:2.4rem;
-	padding:4.8rem 0 ;
+	padding:2.4rem 0 2.4rem;
 }
 
 p,
@@ -42,7 +42,7 @@ section section > *:last-child {
 	width:100%;
 	box-sizing:border-box;
 	padding:0 2.4rem;
-	background:#DCD0FF;
+	background:rgba(220, 208, 255, 0.7);
 }
 .main-navigation ul {
 	display:none;
