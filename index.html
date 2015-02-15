@@ -4,22 +4,22 @@
 	<meta charset="utf-8">
 	<title>Lea og Just Thomas gifter seg</title>
 	<link href='http://fonts.googleapis.com/css?family=Balthazar' rel='stylesheet' type='text/css'>
-	<link href='/vendor/genericons/genericons.css' rel='stylesheet' type='text/css'>
+	<link href='/vendor/genericons/genericons/genericons.css' rel='stylesheet' type='text/css'>
 	<link href='/css/meyer-reset.css' rel='stylesheet' type='text/css'>
 	<link href='/css/style.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header>
 	<nav role="main-navigation" class="main-navigation">
-		<button class="toggle-menu" onclick="javascript:if(this.parentNode.classList.contains('toggled')) this.parentNode.classList.remove('toggled'); else this.parentNode.classList.add('toggled');">Toggle menu</button>
+		<button class="toggle-menu" onclick="javascript:if(this.parentNode.classList.contains('toggled')) this.parentNode.classList.remove('toggled'); else this.parentNode.classList.add('toggled');"><span class='genericon genericon-menu'><span class='no-css'>Toggle menu</span></button>
 		<ul>
-			<li><a href="">Hjem</a></li>
-			<li><a href="">Program</a></li>
-			<li><a href="">Adkomst</a></li>
-			<li><a href="">Overnatting</a></li>
-			<li><a href="">Ønskeliste</a></li>
-			<li><a href="">Bilder og sånt</a></li>
-			<li><a href="">Annen praktisk info</a></li>
+			<li><a onclick="javascript:this.parentNode.parentNode.parentNode.classList.remove('toggled');" href="hold-av-datoen.html">Hold av datoen</a></li>
+			<li><a onclick="javascript:this.parentNode.parentNode.parentNode.classList.remove('toggled');" href="#program">Program</a></li>
+			<li><a onclick="javascript:this.parentNode.parentNode.parentNode.classList.remove('toggled');" href="#adkomst">Adkomst</a></li>
+			<li><a onclick="javascript:this.parentNode.parentNode.parentNode.classList.remove('toggled');" href="#overnatting">Overnatting</a></li>
+			<li><a onclick="javascript:this.parentNode.parentNode.parentNode.classList.remove('toggled');" href="#oenskeliste">Ønskeliste</a></li>
+			<li><a onclick="javascript:this.parentNode.parentNode.parentNode.classList.remove('toggled');" href="#bilder">Bilder og sånt</a></li>
+			<li><a onclick="javascript:this.parentNode.parentNode.parentNode.classList.remove('toggled');" href="#annet">Annen praktisk info</a></li>
 		</ul>
 	</nav>
 </header>
@@ -66,7 +66,7 @@
 		<header>
 			<h1>Overnatting</h1>
 		</header>
-		<p>Det ligger to hoteller i umiddelbar nærhet til lokalet. De to hotellene er Soria Moria og Voksenkollen hotell.</p>
+		<p>Det ligger to hoteller i umiddelbar nærhet til festlokalet. De to hotellene er Soria Moria og Voksenkollen hotell.</p>
 		<p>Vi har gruppebestilling på Voksenkollen, med rabatter og kort vei. For å komme med på gruppebestillinga, må du bestille innen 2. mars. Her er en .pdf fra hotellet med informasjon om <a href="pdf/hotell.pdf">hvordan du bestiller til rabattert pris</a>.</p>
 	</section>
 	<section id="oenskeliste">
@@ -85,6 +85,7 @@
 		<header>
 			<h1>Annen praktisk info</h1>
 		</header>
+		<p>Vi kom ikke på noe mer, men har helt sikkert glemt masse. Spør oss!
 	</section>
 </section>
 <footer></footer>
